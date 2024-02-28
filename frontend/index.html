@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Begrüßungs-App</title>
+    <script src="greetingApp.js" defer></script>
+    <style>
+        #inputContainer {
+            margin-bottom: 20px;
+        }
+        #nameInput {
+            width: 200px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Begrüßungs-App</h1>
+    <p>Willkommen bei der Begrüßungs-App.</p>
+    
+    <div id="inputContainer">
+        <label for="nameInput">Gib deinen Namen ein:</label>
+        <input type="text" id="nameInput" placeholder="Dein Name">
+        <button onclick="submitName()">Absenden</button>
+    </div>
+
+    <div id="greetingMessage">Bitte gib deinen Namen ein und klicke auf "Absenden".</div>
+</body>
+</html>
