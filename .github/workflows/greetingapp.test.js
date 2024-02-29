@@ -2,11 +2,11 @@ const { submitName, updateUI } = require('./greetingApp');
 
 test('submitName function works correctly', () => {
   // Mocking document.getElementById
-  document.getElementById = jest.fn(() => ({ value: 'Jimmy' }));
+  document.getElementById = jest.fn(() => ({ value: 'Jim' }));
 
   submitName();
 
-  expect(updateUI).toHaveBeenCalledWith('Hello, Jimmy!');
+  expect(updateUI).toHaveBeenCalledWith('Hello, Jim!');
 });
 
 test('updateUI function updates greetingMessage element', () => {
