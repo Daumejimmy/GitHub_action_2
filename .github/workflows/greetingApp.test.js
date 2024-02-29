@@ -1,4 +1,4 @@
-const { submitName, updateUI } = require('../../greetingApp'); // Passe den Pfad entsprechend an
+const { submitName, updateUI } = require('../../../frontend/greetingApp'); // Passe den Pfad entsprechend an
 
 test('submitName function works correctly', () => {
   // Mocking document.getElementById
